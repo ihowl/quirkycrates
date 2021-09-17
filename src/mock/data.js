@@ -18,10 +18,17 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I love plants. I love cute pots for my plants. I love supporting local growers and artisans. I also really, REALLY love surprises! ',
+  paragraphTwo:
+    'Would you like to be surprised (or be the surpriser) and purchase a quirky plant in a cute planter with or without some local-made goodies?',
+  paragraphThree:
+    'Supplies will be very limited! We will connect with you to see if you would like a complete surprise, or if you have any preferences so we can curate each package to bring as much joy as possible.',
+  paragraphFour:
+    'If this is something that you would be interested in, please sign up to our mailing list. This will help me determine if this could be a viable small-business opportunity for me.',
+  paragraphFive: 'Fingers crossed x',
+  paragraphSix: 'Toni @quirky_lemon',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -67,18 +74,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'facebook',
+      url: 'https://www.facebook.com/quirkywerky',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/quirky_lemon/',
     },
     {
       id: nanoid(),
-      name: 'linkedin',
-      url: '',
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UCfB_jlok-4y--869VSC3dWQ',
     },
     {
       id: nanoid(),
