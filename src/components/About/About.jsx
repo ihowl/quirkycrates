@@ -34,7 +34,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="All About Quirky Crates" />
+        <Title title="All About Quirky Collections" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">

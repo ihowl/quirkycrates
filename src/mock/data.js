@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Quirky Lemon', // e.g: 'Name | Developer'
+  title: 'Quirky Collections', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Welcome to',
-  name: 'Quirky Crates',
+  name: 'Quirky Collections',
   subtitle: 'Hand Crafted + Grown With Love + Hand-Delivered',
   cta: 'I want to know more!',
 };
