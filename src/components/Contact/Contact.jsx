@@ -17,7 +17,7 @@ const Contact = () => {
             {/* <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p> */}
-            <form method="post" action="https://getform.io/{your-unique-getform-endpoint}">
+            <form method="post" action="https://getform.io/f/bf7c1378-635e-43de-ab9a-9b57ad65c87e">
               <label>
                 Email
                 <input type="email" name="email" />

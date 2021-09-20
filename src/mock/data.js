@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'fingerscrossed.png',
   paragraphOne:
     'I love plants. I love cute pots for my plants. I love supporting local growers and artisans. I also really, REALLY love surprises! ',
   paragraphTwo:
