@@ -20,7 +20,7 @@
 
   .about-wrapper {
     @include respond(phone) {
-      padding-bottom: 5rem;
+      padding-bottom: 1rem;
     }
 
     &__image {
@@ -30,7 +30,7 @@
       justify-content: center;
 
       @include respond(tab-port) {
-        padding-bottom: 6.4rem;
+        padding-bottom: 1rem;
       }
       @include respond(tab-land) {
         height: 100%;
