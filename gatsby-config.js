@@ -13,6 +13,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-recaptcha`,
+      options: {
+        args: `?render=6LdtwYgcAAAAANWbohJLaLTuHQhbyZs877HG3ZDx`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,

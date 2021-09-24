@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
@@ -40,6 +40,7 @@ const Contact = () => {
                   placeholder="postal code"
                 />
               </label>
+              <input type="hidden" id="captchaResponse" name="g-recaptcha-response" />
               <br />
               <button type="submit" className="cta-btn cta-btn--resume">
                 {btn || "Let's Talk"}
@@ -59,6 +60,29 @@ const Contact = () => {
       </Container>
     </section>
   );
+};
+// eslint-disable-next-line no-unused-vars
+const handleLoaded = (_) => {
+  // eslint-disable-next-line no-unused-vars, no-shadow
+  window.grecaptcha.ready((_) => {
+    window.grecaptcha
+      .execute('6LdtwYgcAAAAANWbohJLaLTuHQhbyZs877HG3ZDx', { action: 'homepage' })
+      .then((token) => {
+        document.getElementById('captchaResponse').value = token;
+      });
+  });
+};
+
+// eslint-disable-next-line no-unused-vars
+const useScript = (url) => {
+  useEffect(() => {
+    // Add reCaptcha
+    const script = document.createElement('script');
+    script.src =
+      'https://www.google.com/recaptcha/api.js?render=6LdtwYgcAAAAANWbohJLaLTuHQhbyZs877HG3ZDx';
+    script.addEventListener('load', handleLoaded);
+    document.body.appendChild(script);
+  }, []);
 };
 
 export default Contact;
