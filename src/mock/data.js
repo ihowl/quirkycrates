@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Quirky Collections', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Hand Crafted + Grown With Love + Hand-Delivered', // e.g: Welcome to my website
 };
 
 // HERO DATA
