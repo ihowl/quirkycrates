@@ -34,7 +34,6 @@ const Contact = () => {
               <label className="contact-wrapper-label">
                 <input
                   type="text"
-                  pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]"
                   name="postcode"
                   className="contact-wrapper-input"
                   placeholder="postal code"
