@@ -14,7 +14,7 @@ const Contact = () => {
         <Title title="Interested?" />
         <h2 className="about-subtitle">
           For our pilot project, we will only be offering Quirky Collections to households in
-          Southern Ontario, Canada
+          Ontario, Canada
         </h2>
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
